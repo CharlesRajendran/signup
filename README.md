@@ -84,6 +84,16 @@
 
 <hr />
 
+### References
+- [JEST](https://jestjs.io/)
+- [Quick JavaScript testing tip: How to structure your tests?](https://codeutopia.net/blog/2017/05/15/quick-javascript-testing-tip-how-to-structure-your-tests/)
+- [What is BDD? An Introduction to Behavioral Driven Development](https://blog.testlodge.com/what-is-bdd/)
+- [Boundary Value Analysis & Equivalence Partitioning with Examples](https://www.guru99.com/equivalence-partitioning-boundary-value-analysis.html)
+
+
+
+<hr />
+
 # Questions???
 <div align="center">
     <img src="http://m.quickmeme.com/img/59/594f2118b326aef73fdd49acc1980a14652f87dca864d20c581cc6e5cb61b44d.jpg" />
