@@ -1,10 +1,22 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+const router = express.Router();
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
+const { signup } = require('../controllers/index');
+const { commenters } = require('../controllers/post');
+
+router.post('/signup', function(req, res, next) {
+  const response = signup(req.body)
+
   res.json({
-    response: "hi there"
+    response
+  });
+});
+
+router.get('/commenters', async function(req, res, next) {
+  const response = await commenters();
+
+  res.json({
+    response
   });
 });
 
